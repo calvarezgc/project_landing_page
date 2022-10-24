@@ -273,58 +273,8 @@ a {
     text-align: center;
   }
 }
-.footer-page {
-  background: #1e2833;
-  text-align: center;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 50px;
-  color: rgba(0, 0, 0, 0.3);
-}
-.footer-logo {
-  padding: 55px 0px 30px;
-}
-.footer-text {
-  padding-bottom: 62px;
-  font-size: 14px;
-  line-height: 150%;
-  text-align: center;
-  color: #ffffff;
-}
-.footer-links-page {
-  align-items: center;
-  padding-bottom: 100px;
-}
-.footer-links-page a {
-  color: #ffffff;
-  opacity: 0.8;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 20px;
-}
-.footer-links-page a:hover {
-  opacity: 1;
-  color: #ffffff;
-}
-.footer-links-url {
-  color: #ffffff;
-  padding-bottom: 60px;
-}
-.footer-links-url a {
-  color: #ffffff;
-  opacity: 0.8;
-  text-decoration: none;
-  font-size: 17px;
-  padding: 0px 40px;
-}
-.footer-links-url a:hover {
-  opacity: 1;
-}
-@media (max-width: 576px) {
-  .footer-page {
-    justify-content: center;
-  }
-}
+
+/* Botones Let's started */
 .empty-button {
   border: 1px solid #edf3f2;
   color: #333333;
@@ -374,12 +324,12 @@ a {
   background: linear-gradient(91.12deg, #0edfa9 1.6%, #0cc495 94.23%);
 }
 
-/****************** SECCION OPINION ESTRELLAS ******************/
-
+/* Numeros redondos de las tarjetas */
 .bordered-card {
   border: 1px solid #f2f2f2;
   border-radius: 12px;
 }
+/****************** SECCION OPINION ESTRELLAS ******************/
 .reviews-stars img {
   max-width: 122px;
 }
@@ -480,31 +430,31 @@ a {
   margin-right: 0.5rem;
 }
 
-.learn-more-section {
+.learn-more {
   border-radius: 22px;
   padding: 67px 62px 0 62px;
   position: relative;
 }
-.learn-more-section.blue {
+.learn-more.blue {
   background: #f3f3ff;
 }
-.learn-more-section.orange {
+.learn-more.orange {
   background: #fcf7f3;
 }
-.learn-more-section.green {
+.learn-more.green {
   background: #f3fbf3;
 }
-.learn-more-section h5,
-.learn-more-section .h5 {
+.learn-more h5,
+.learn-more .h5 {
   color: #081637;
 }
-.learn-more-section p {
+.learn-more p {
   font-size: 20px;
   font-weight: 300;
   line-height: 34px;
   color: #495377;
 }
-.learn-more-section a {
+.learn-more a {
   padding: 18px 30px;
   display: inline-block;
   background: white;
@@ -513,20 +463,20 @@ a {
   color: #081637;
   font-weight: 600;
 }
-.learn-more-section img {
+.learn-more img {
   border-radius: 20px 20px 0 0;
 }
-.learn-more-section .container > img {
+.learn-more .container > img {
   position: absolute;
   bottom: 0;
   right: 62px;
   width: 35%;
 }
-.learn-more-section .col {
+.learn-more .col {
   position: relative;
   z-index: 1;
 }
-.learn-more-section .col-lg-7 {
+.learn-more .col-lg-7 {
   padding-bottom: 67px;
 }
 .steps-item p {
@@ -724,13 +674,13 @@ a {
   .reviews-slider .bordered-card {
     width: auto;
   }
-  .learn-more-section {
+  .learn-more {
     padding-left: 0;
     padding-right: 0;
     padding-top: 40px;
     padding: 40px 0 0 0;
   }
-  .learn-more-section .col-lg-7 {
+  .learn-more .col-lg-7 {
     padding-bottom: 0;
   }
 }
