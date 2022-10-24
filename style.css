@@ -396,6 +396,51 @@ a {
   }
 }
 
+.styled-form {
+  width: 70%;
+  border-top-width: 1px;
+  padding: 10px;
+  border-radius: 20px;
+  border-top-style: solid;
+  border-top-color: transparent;
+  background: white;
+  box-shadow: 0px 18px 83px rgba(0, 0, 0, 0.07);
+}
+.styled-form input,
+.styled-form input.form-control {
+  border-radius: 8px;
+  border-color: transparent;
+}
+.styled-form input::-webkit-outer-spin-button,
+.styled-form input::-webkit-inner-spin-button {
+  margin: 0;
+}
+
+.styled-form .form-control-solar-calculator {
+  border-style: none;
+}
+.styled-form .hidden {
+  display: none;
+}
+.styled-form .yellow-button {
+  padding: 19px 50px;
+}
+.styled-form .divider {
+  background: rgba(8, 22, 55, 0.1);
+  height: 30px;
+  width: 1px;
+}
+@media (max-width: 768px) {
+  .styled-form .yellow-button {
+    width: 100%;
+  }
+}
+@media (max-width: 1399.98px) {
+  .styled-form {
+    width: 100%;
+  }
+}
+
 #homepage {
   width: 100%;
   background-size: cover;
